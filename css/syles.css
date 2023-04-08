@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+body {
+    background-color: #ece6e6;
+    overflow-x:hidden; /* Scroll Lateral */
+    /* overflow-y:hidden; Scroll de baixo*/
+}
+header {
+    width: 100%;
+    height: 90px;
+    background-color:#f52222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.sec-01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("banner-bg1280-800.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 960px;
+    position: relative;
+}
+.logo {
+    position: absolute;
+    top: 50px;
+    text-align: center;
+}
+.logo img {
+    border-radius: 15px;
+}
+.text {
+    position: absolute;
+    top: 210px;
+    text-align: center;
+}
+.text h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+.text strong {
+    font-size: 1.7rem;
+    background-color: #FFFC00;
+    color: #107E01;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.text p{
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 500;
+}
+main {
+    position: absolute;
+    top: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.icone-01 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+.img-ico {
+    width: 210px;
+    height: 210px;
+    border-radius: 15px;
+}
+.btn-style {
+    width: 350px;
+    height: 60px;
+    padding: 10px 15px;
+    background-color: #00E41F;
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.btnPO {
+    position: relative;
+    top: 360px;
+}
+
+.sec-02 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.sec-02 h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 2.2rem;
+    color: #00E41F;
+}
+.info {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    gap: 3.5rem;
+}
+
+.info-text h3 {
+    font-size: 1.4rem;
+    color: #817777;
+    font-weight: 700;
+    text-align: center;
+    margin-top: -50px;
+    padding-bottom: 2rem;
+}
+.info-text p {
+    font-size: 1.1rem;
+    color: #817777;
+    font-weight: 700;
+    text-align: center;
+    line-height: 37px;
+}
+.info img {
+    width: 500px;
+    height: 360px;
+    border-radius: 15px;
+}
+
+.ingredientes {
+    background-image: url("composto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1100px;
+}
+.img-chamada {
+   width: 100%;
+   height: 800px; 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 0px auto;
+}
+.img-chamada div {
+    display: flex;
+}
+.img-style {
+    width: 700px;
+    height: 700px;
+    border-radius: 20px;
+}
+.btnPO-02 {
+    margin-top: 2rem;
+}
+.img-chamada2 {
+    width: 100%;
+    height: 800px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    margin-top: 1.5rem;
+}
+.img-style2 {
+    width: 700px;
+    height: 700px;
+    border-radius: 20px;
+}
+
+.galeria-dep {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.galeria-dep h2 {
+    font-size: 2rem;
+    color: #fff;
+    padding: 20px 18px;
+    background-color: #FFFC00;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+.g-po {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.galeria-dep .item-img {
+    width: 400px;
+    border-radius: 15px;
+}
+
+.garantia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10%;
+}
+
+.text-garantia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+} 
+.text-garantia h2 {
+    font-size: 2rem;
+    background-color: #00E41F;
+    color: #fff;
+    font-weight: 600;
+    padding: 20px;
+    width: 350px;
+    border-radius: 5px;
+}
+.text-garantia p {
+    font-size: 1.1rem;
+    color:  #817d7d;
+    padding: 18px 0;
+}
+.garantia img {
+    width: 40%;
+}
+
+footer {
+    width: 100%;
+    height: 110px;
+    background-color: #107E01;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+footer p {
+    font-size: 1.3rem;
+    color: #ece6e6;
+}
+
+/* Responsivo */
+@media (max-width: 800px) {
+    header {
+        width: 100%;
+        height: 80px;
+    }
+    header p {
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 15px 20px;
+        text-align: center;
+    }
+
+    .sec-01 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .text {
+        padding: 0 35px;
+        margin-bottom: 3rem;
+    }
+    .text h2 strong {
+        font-size: 1.2rem;
+    }
+    .text p {
+        font-size: 1rem;
+    }
+
+    main {
+        width: 85%;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .icone-01 {
+        display: none;
+    }
+
+    .sec-02 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 900px;
+    }
+    .info {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .info img{
+        width: 350px;
+    }
+
+    .ingredientes {
+        display: none;
+    }
+    
+    .img-chamada {
+        width: 100%;
+        height: 900px;
+    }
+    .img-chamada div {
+        display: flex;
+        flex-direction: column;
+    }
+    .img-mobile {
+        width: 400px;
+        height: 400px;
+    }
+
+    .galeria-dep {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 0;
+    }
+    .galeria-dep h2 {
+        text-align: center;
+    }
+
+    .g-po {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .g2 {
+        display: none;
+    }
+
+    .garantia {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .text-garantia {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    footer p {
+       text-align: center;
+       padding: 0 16px; 
+    }
+}
+    
